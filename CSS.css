@@ -1,0 +1,71 @@
+h1 {
+    color: rgb(219,112,147,0.9);
+    text-align:center;
+    
+}
+h2, h3, p {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+    widht:"20%";
+}
+tr {
+    text-align: center;
+}
+label {
+    color: rgb(254,1,1,0.8)
+    text-align: right;
+}
+
+table {
+    width="70%";
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255,165,5,0.9)
+    
+}
+.estilo_diferente1 {
+    color: rgb(100,255,70);
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.estilo_diferente2 {
+    font-size: larger;
+    font-weight: bolder;
+    background-color: #fff000;
+}
+.estilo_diferente3 {
+    font-size: x-large;
+    color:#09f;
+}
+.forma_de_pagamento {
+    font-weight: bolder;
+}
+.copyright {
+    background-color: rgb(169,169,169, 0.6);
+}
+.produtos1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.produtos2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lista1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+.lojas .contato{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.estilo_diferente4 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.1cm;
+    color: rgb(0,80,0);
+}
+.menu_inicial {
+    width: 100%;
+    border: 2px;
+}

@@ -1,0 +1,66 @@
+<link rel="sortcut icon" href="allbikes.png" type="image/png" />
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="stylesheet" type="text/css" href="CSS.css">
+        <meta charset="UTF-8">
+        <title>
+            Allbikes
+        </title>
+        <script type="text/javascript">
+            function substituir2() {
+                document.getElementById("substituir2").src="Bike6.jpg" ;
+            }
+            function trocarimagemgif(){
+                document.getElementById("trocar").src ="Página Inicial 03.gif";
+            }
+            function substituir() {
+                document.getElementById("substituir1").src="Página Inicial 02.gif" ;
+            }
+        </script>
+    </head>
+<!-- Início do Menu Principal-->
+    <body>
+        
+    <table width="100%" border="2px">
+        <tr>
+            <th width="10%"> <a href="Página Inicial.html"><img onmousemove="aumentar(this)" onmouseout="normal(this)" width="50px" src="allbikes.png" alt="Página Inicial"></a></th>
+            <script>
+                function aumentar(x) {x.style.height = "50px";x.style.width = "75px";}
+                function normal(x) {x.style.height = "50px";x.style.width = "50px";}
+            </script>
+            <th> <a href="Produtos.html">Produtos</a></th>
+            <th> <a href="Nossas Lojas.html">Nossas Lojas</a></th>
+            <th> <a href="Contato.html">Contato</a></th>
+        </tr>
+    </table>
+<!-- FIm do Menu Principal-->
+
+    <H1 class="estilo_diferente1">
+            <i>ALL BIKES</i> - aqui você encontra tudo para sua bicicleta      
+    </H1> 
+    <center>   
+        <td> 
+        <p class="estilo_diferente2" > Programadores formados pela Recode têm <u><font color="red">50% de desconto</u></font> em todo o site </p>
+        <h2 class="estilo_diferente3"> Com a allbikes você pedala no seu ambiente preferido</h2>
+        
+            <img id="substituir2" onmousemove="substituir2()" src="Bike2.jpg" style="width: 400px; height: 300px;">
+            <img id="trocar" onclick="trocarimagemgif()" src="Bike4.gif" style="width: 400px; height: 300px;" src="Bike4.gif" style="width: 400px; height: 300px;">
+            <img id="substituir1" onmousemove="substituir()" src="Bike3.jpg" style="width: 400px; height: 300px;">
+    </center>
+        </td>      
+    
+        <br><br><br><br>
+        <p class="forma_de_pagamento">Formas de pagamento</p>
+                <table>
+                    <tr>
+                        <center><img src="Pagamento_01.webp" style="width: 250px; height: 100px;"></center>
+                    </tr>
+                
+                </table>
+                <p class="copyright">&copy; allbikes</p>
+                <script src="Javascript.js"></script>
+                
+                
+            </body>
+        </html>
